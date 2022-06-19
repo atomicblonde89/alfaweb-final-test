@@ -66,7 +66,7 @@ export default new Vuex.Store({
         .catch((error) => {
           console.log(error);
           commit('SET_USER_MSJ_ERROR', errorCodeToStringLabelFirebase(error.code));
-        });;
+        });
     },
     getUserLogin({ commit }) {
       getAuth().onAuthStateChanged((user) => {

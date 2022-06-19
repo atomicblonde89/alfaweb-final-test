@@ -11,7 +11,7 @@ const firebaseConfig = {
   projectId: "alfaweb-test-final",
   storageBucket: "alfaweb-test-final.appspot.com",
   messagingSenderId: "810660546226",
-  appId: "1:810660546226:web:0d149bcdbebd868c56ebab"
+  appId: "1:810660546226:web:f17a23a98055dccc56ebab"
 };
 
 // Initialize Firebase
